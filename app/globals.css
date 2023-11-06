@@ -20,13 +20,13 @@ input[type='radio'] {
 }
 
 .bg-img {
-  background-image: url("/bg-img.png");
+  background-image: url("/front.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-cover {
-  background-image: url("/bg-cover.png");
+  background-image: url("/front.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
