@@ -10,7 +10,7 @@ export default function PaymentPage() {
     const returnCriteria = ["The item must be returned within 14 days of the purchase date.", "The item is unused, uninstalled, and not disassembled.", "All parts, hardware, and instructions are included and not missing.", "The item is in its original packaging."]
     return (
         <div>
-            <Textblock title="Payment & Shipping" description="Thank you for choosing to shop with AUTODOC. We understand that sometimes things don't work out as planned, and we want to make the return process as easy as possible for you. Please take a moment to review our shipping and return policies below." />
+            <Textblock title="Payment & Shipping" description="Thank you for choosing to shop with G-FLY STORE. We understand that sometimes things don't work out as planned, and we want to make the return process as easy as possible for you. Please take a moment to review our shipping and return policies below." />
             <div className="flex w-full justify-center outline-none">
             <Accordion type="single" collapsible className="lg:w-[800px] sm:w-full mx-8">
             <AccordionItem value="item-1">

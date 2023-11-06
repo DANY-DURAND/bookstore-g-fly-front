@@ -5,7 +5,7 @@ export default function DeliveryPage() {
     const deliveryTerms = [
         {
             title: "Delivery Timeframes:",
-            description: "AUTODOC offers fast and reliable delivery for all orders. Delivery times vary depending on your location, but you can expect to receive your order within 1-3 business days. Please note that delivery times may be longer for remote or rural areas."
+            description: "G-FLY STORE offers fast and reliable delivery for all orders. Delivery times vary depending on your location, but you can expect to receive your order within 1-3 business days. Please note that delivery times may be longer for remote or rural areas."
         },
         {
             title: "Delivery Fees:",
@@ -24,7 +24,7 @@ export default function DeliveryPage() {
                 </div>
                 ))}
             </div>
-            <Image src="/box.png" width={400} height={700} alt="Product packaging" className="md:my-0 sm:my-8"/>
+            <Image src="/delivery.png" width={400} height={700} alt="Product packaging" className="md:my-0 sm:my-8"/>
         </div>
         </>
     )
