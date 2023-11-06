@@ -62,7 +62,8 @@ export default function Homepage() {
     return (
         <>
         <Landing />
-        <Textblock title="About the store" description="With over 12 years of experience in the automotive industry, I have gained a wealth of knowledge and expertise when it comes to steering equipment. Having worked with a wide range of customers, I understand firsthand the rigorous standards that must be met to ensure customer satisfaction. Here, you can find spare parts that not only meet but exceed OEM requirements, and that I have personally had positive experience with." />
+        <Textblock title="About the store" 
+          description="Welcome to G-Fly Store, your one-stop destination for all your literary needs. Dive into a world of captivating stories, insightful knowledge, and endless adventures with our vast collection of books. Whether you're a bookworm, a casual reader, or a student on a quest for knowledge, we've got you covered. Explore a treasure trove of genres, from bestsellers to hidden gems, and find your next favorite read. With easy online browsing, secure transactions, and swift doorstep delivery, we make the joy of reading just a click away. Discover the magic of words at G-Fly Store – Where Books Take Flight!" />
         <div className="lg:flex sm:w-full sm:hidden lg:mx-16 sm:mx-4 lg:gap-1 sm:gap-0 my-8 border p-1 lg:w-fit rounded-md">
           <Button
             variant="ghost"

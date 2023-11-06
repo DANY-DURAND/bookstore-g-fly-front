@@ -48,7 +48,7 @@ export default function ProductPage() {
                                 <h1 className="my-4 font-bold uppercase text-xl">{product.name}</h1>
                                 <p className="lg:w-[600px] sm:w-full text-slate-600">{product.description}</p>
                             </div>
-                            <span className="font-bold text-xl">${product.price}.00</span>
+                            <span className="font-bold text-xl">${product.price}</span>
                             <Button onClick={hanldeAddToCart} className="w-fit flex gap-2 sm:mb-16 lg:mb-0">Add to Cart <ShoppingCart size={16} /></Button>
                         </div>
                     </div>

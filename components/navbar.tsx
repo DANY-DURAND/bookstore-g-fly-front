@@ -86,7 +86,7 @@ export default function Navbar() {
     return (
         <div>
             <div className="lg:hidden sm:flex gap-4 py-4 px-4 justify-between border-b">
-                <Link href="/" className="flex items-center"><Image src="/logo2.svg" width={32} height={32} alt="Company logo." /></Link>
+                <Link href="/" className="flex items-center">G-FLY STORE</Link>
                 <div className="flex flex-col">
                     <div className="border p-1 pl-4 rounded-md flex items-center justify-between shadow-sm md:w-[364px] sm:w-full sm:ml-0">
                         <DropdownMenu>
