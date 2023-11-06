@@ -17,7 +17,7 @@ export default function BlogPage() {
     }
     return (
         <div>
-            <Textblock title="Blog" description="Here you’ll find lots of useful tips & tricks in the world of automobiles. Only practical curated articles written by myself from my own experience." />
+            <Textblock title="Your Source for Literary Delights" description="Dive into the enchanting world of literature with Book Buzz Blog. We're your go-to destination for the latest book news, insightful reviews, and thought-provoking discussions on all things literary. Whether you're an avid reader, a book enthusiast, or just curious about the literary universe, we've got you covered. Explore our captivating articles that showcase new releases, author interviews, book recommendations, and in-depth reviews, all served with a side of passion and expertise. Join our community of fellow book lovers and stay up-to-date with the ever-evolving world of words. Book Buzz Blog – Where Books Come to Life" />
             <div className="lg:ml-[32px] sm:ml-[0px]">
                     {posts.length > 0 ? (
                         <Fragment>

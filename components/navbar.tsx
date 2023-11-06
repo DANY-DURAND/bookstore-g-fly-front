@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { Menu, Search, ShoppingCart } from "lucide-react";
+import { Bold, Menu, Search, ShoppingCart } from "lucide-react";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { useEffect, useState } from "react";
 import { Products } from "@/interface/interface";
@@ -150,7 +150,7 @@ export default function Navbar() {
                     
             <div className="px-8 py-4 border-b shadow-sm flex justify-between sm:hidden lg:flex">
                     <div className="gap-8 items-center flex text-sm font-medium text-slate-500">
-                        <Link href="/" className="flex items-center">G-FLY STORE</Link>
+                        <Link href="/" className="flex items-center"><Bold>G-FLY STORE</Bold></Link>
                         <div className="flex gap-4">
                             {routes.map((route) => (
                                 <Link key={route.href} href={route.href} className="hover:text-slate-800">
