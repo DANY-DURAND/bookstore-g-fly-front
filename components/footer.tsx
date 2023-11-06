@@ -86,7 +86,7 @@ export default function Footer() {
             </div>
             <Separator />
             <div className="flex justify-between items-center text-sm sm:mx-4 lg:mx-8 py-8 text-slate-500">
-                <span>Designed & Built by <Link href="https://www.linkedin.com/in/anastasia-bielievitina-b20396259/" className="underline hover:text-slate-950">Anabel</Link></span>
+                <span>Designed & Built by <Link href="#" className="underline hover:text-slate-950">BIT</Link></span>
                 <div className="flex gap-4">
                     <Link href="/" className="hover:text-neutral-800 transition-all">Terms of Use</Link>
                     <Link href="/" className="hover:text-neutral-800 transition-all">Privacy Policy</Link>
