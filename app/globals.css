@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, :root {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #FCFBFC;
+}
+
+.bg {
+  background-color: #FCFBFC
+}
+
+input[type='radio'] {
+  accent-color: #232323;
+}
+
+.bg-img {
+  background-image: url("/bg-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-cover {
+  background-image: url("/bg-cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery::-webkit-scrollbar {
+  visibility:hidden;
+}
+
+.custom-font {
+  font-family: Syncopate;
+}
