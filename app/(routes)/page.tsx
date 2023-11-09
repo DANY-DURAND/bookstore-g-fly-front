@@ -62,11 +62,12 @@ export default function Homepage() {
     return (
         <>
         <Landing />
-        <Textblock title="About the store" 
+{/*         <Textblock title="About the store" 
           description="Welcome to G-Fly Store, your one-stop destination for all your literary needs. Dive into a world of captivating stories, insightful knowledge, and endless adventures with our vast collection of books. Whether you're a bookworm, a casual reader, or a student on a quest for knowledge, we've got you covered. Explore a treasure trove of genres, from bestsellers to hidden gems, and find your next favorite read. With easy online browsing, secure transactions, and swift doorstep delivery, we make the joy of reading just a click away. Discover the magic of words at G-Fly Store – Where Books Take Flight!" />
+*/}
         <div className="lg:flex sm:w-full sm:hidden lg:mx-16 sm:mx-4 lg:gap-1 sm:gap-0 my-8 border p-1 lg:w-fit rounded-md">
           <Button
-            variant="ghost"
+            variant="ghost" 
             className={`text-sm ${isActive === null ? 'bg-slate-100 text-slate-800' : 'text-slate-500'} font-medium hover:text-slate-800`}
             onClick={() => handleButtonClick(null)}
           >
