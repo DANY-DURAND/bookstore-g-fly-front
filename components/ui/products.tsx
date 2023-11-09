@@ -20,7 +20,7 @@ export default function ProductGrid({separator, containerStyle, title, titleStyl
                     <Image src={product.images[0].url} width={236} height={200} alt="Product Image" className="lg:w-[236px] lg:h-[200px] sm:w-full object-contain"/>
                     <div className="flex flex-col gap-4 items-start w-full">
                       <h1 className="text-sm uppercase sm:h-fit lg:h-[42px] custom-font">{product.name}</h1>
-                      <span className="font-bold text-xl">${product.price}.00</span>
+                      <span className="font-bold text-xl">${product.price}</span>
                       <div className="flex gap-4 justify-between w-full">
                         <HoverCard>
                         <HoverCardTrigger><Button variant="outline" className="bg"><Info size={16} /></Button></HoverCardTrigger>
