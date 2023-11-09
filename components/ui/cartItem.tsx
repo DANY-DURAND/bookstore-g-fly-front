@@ -19,7 +19,7 @@ export default function CartItem(props: CartItemProps) {
                 <div className="flex w-full">
                     <div className="flex flex-col gap-1 lg:ml-4 sm:ml-0 text-sm w-full">
                         <h1 className="font-bold text-slate-900">{props.data.name}</h1>
-                        <span>${props.data.price}.00</span>
+                        <span>${props.data.price}</span>
                     </div>
                     <Button variant="ghost" onClick={handleRemoveItem} className="self-start"><Trash size={12} /></Button>
                 </div>
